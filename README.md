@@ -23,11 +23,15 @@ Sigue estos pasos para clonar el repositorio y ejecutar el script en tu máquina
 2. **Ejecutar start_minix y copyhost para copiarnos el directorio Disco del host a minix**
    ```bash
    start_minix &
+   ```   
    (iniciar sesión con nuestro ususario y clave)
+   ```bash   
    su -
+   ```
+   ```bash
    copyhost
    ```
-  3. **Ejecutar script rec_kernel.sh como root (#)**
+  4. **Ejecutar script rec_kernel.sh como root (#)**
      ```bash
      bash rec_kernel.sh
      ```
