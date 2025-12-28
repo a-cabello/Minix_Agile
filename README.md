@@ -29,7 +29,7 @@ Sigue estos pasos para clonar el repositorio y ejecutar el script en tu máquina
    (iniciar sesión con nuestro ususario y clave)
    su -
    copyhost
-   ´´´
+   ```
   3. **Ejecutar script rec_kernel.sh como root (#)**
      ```bash
      bash rec_kernel.sh
