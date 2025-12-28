@@ -2,7 +2,7 @@ Una colección de scripts en Bash diseñados para optimizar tareas de administra
 Este repositorio contiene actualmente herramientas para automatizar la recompilación constante del kernel (es un rollo hacerlo a mano todo el rato).
 ..................................................................
 
-## rec_kernel.sh (Script Principal)
+## rec_kernel.sh
 
 Este script automatiza el proceso de copia, compilación e instalación de un nuevo fichero `main.c` dentro del código fuente del kernel. Incluye manejo de señales para una salida limpia y feedback visual por colores.
 
