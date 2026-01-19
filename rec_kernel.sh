@@ -16,8 +16,12 @@ echo -e "${greenColour}[+]${endColour} Copiando host..."
 copyhost &>/dev/null
 
 while true; do
-    echo -ne "\n${grayColour}[+]${endColour} Introduzca ruta al fichero main.c: "
-    read main
+    main=$1
+    if [ -z "$1" ]; then
+        echo -e "\n${redColour}[!]${endColour} falta la ruta del fichero main.c"
+        echo -e "\n\t\t${grayColour} $0 ${endColour}<archivo_main.c>"
+        exit 1
+    fi
     if [ ! -f "$main" ]; then
         echo -e "\n ${redColour}[!]${endColour} No existe el fichero ${main}\n"
     else
