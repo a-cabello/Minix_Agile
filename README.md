@@ -33,5 +33,5 @@ Sigue estos pasos para clonar el repositorio y ejecutar el script en tu máquina
    ```
   4. **Ejecutar script rec_kernel.sh como root (#)**
      ```bash
-     bash e1-Minix_Agile/rec_kernel.sh
+     bash e1-Minix_Agile/rec_kernel.sh <ruta fichero main.c>
      ```
